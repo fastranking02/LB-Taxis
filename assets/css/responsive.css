@@ -1,0 +1,8 @@
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 15px;
+    }
+    .navbar-expand-lg .navbar-nav{
+        gap: 20px;
+    }
+}

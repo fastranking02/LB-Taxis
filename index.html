@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>L B Taxis</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css"
+    integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+    integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!------------ Header ------------->
+  <header>
+    <div class="top-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left">
+              <ul class="contact-info mb-0">
+                <li><a href="#"><i class='bx bxs-phone'></i> <span> +44 1234 567890</span></a></li>
+                <li><a href="#"><i class='bx bxs-envelope'></i> <span> example@gmail.com</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right text-end">
+              <ul class="social-info justify-content-end mb-0">
+                <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">LB Taxies</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex nav-Cta" role="search">
+          <a class="outlineBtn" href="">Book A Taxi</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!------------ Header End ------------->
+
+  <!---------- Slider Banner ----------->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <div class="custBanner banner1">
+          <div class="overlay"></div>
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="title">First slide label</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quam cumque suscipit architecto mollitia
+            error commodi? Consequatur soluta beatae illum?</p>
+
+          <div class="buttn pt-3">
+            <a href="" class="whiteBtn">Book Taxi</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <div class="custBanner banner2">
+          <div class="overlay"></div>
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="title">Second slide label</h2>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <div class="custBanner banner3">
+          <div class="overlay"></div>
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="title">Third slide label</h3>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+      data-bs-slide="prev">
+      <div class="icon-bg">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </div>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+      data-bs-slide="next">
+      <div class="icon-bg">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </div>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!---------- Slider Banner End ----------->
+
+  <!---------- Book Taxies ----------->
+  <section id="bookTaxi">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-5">
+          <div class="content">
+            <h3 class="title pb-3">Do you require a car<br>Get in touch with us</h3>
+
+            <div class="text">
+              <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, ipsum! Porro
+                at corporis nam corrupti.</p>
+            </div>
+
+            <div class="booking-details">
+              <div>
+                <i class='bx bxs-contact'></i>
+              </div>
+              <div>
+                <ul>
+                  <li>Phone: +44 1234 567890</li>
+                  <li>Email: example@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="content">
+            <h3 class="title pb-3 form-title">Book your taxi now</h3>
+
+            <div class="text form-subtitle">
+              <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, ipsum!</p>
+            </div>
+            <form action="" class="taxi_booking">
+
+              <!-- Pick Up -->
+              <div class="tab">
+                <h5 class="text-center text-muted pb-3">Pick up</h5>
+                <input type="text" name="postCode" placeholder="Post Code" id="postCode">
+              </div>
+
+              <div class="tab">
+                <h5 class="text-center text-muted pb-3">Pick up</h5>
+                <input type="text" name="pickupAdd" placeholder="Address Line 1" id="pickupAdd">
+                <input type="text" name="pickupAdd" placeholder="Address Line 2" id="pickupAdd">
+                <input type="text" name="town" placeholder="Town / City" id="town">
+                <input type="text" name="postCode" placeholder="Post Code" id="postCode">
+              </div>
+
+              <div class="tab">
+                <h5 class="text-center text-muted pb-3">Pick up</h5>
+                <input type="date" name="date" placeholder="Select date" id="date">
+                <input type="time" name="time" placeholder="Select Time" id="time">
+              </div>
+
+              <!-- Destination -->
+
+              <div class="tab">
+                <h5 class="text-center text-muted pb-3">Destination</h5>
+                <input type="text" name="postCode" placeholder="Post Code" id="postCode">
+              </div>
+
+              <div class="tab">
+                <h5 class="text-center text-muted pb-3">Destination</h5>
+                <input type="text" name="pickupAdd" placeholder="Address Line 1" id="pickupAdd">
+                <input type="text" name="pickupAdd" placeholder="Address Line 2" id="pickupAdd">
+                <input type="text" name="town" placeholder="Town / City" id="town">
+                <input type="text" name="postCode" placeholder="Post Code" id="postCode">
+              </div>
+
+              <div class="tab">
+                <h5 class="text-center text-muted pb-3">Destination</h5>
+                <input type="date" name="date" placeholder="Select date" id="date">
+                <input type="time" name="time" placeholder="Select Time" id="time">
+              </div>
+
+              <!-- About You -->
+
+              <div class="tab">
+                <h5 class="text-center text-muted pb-3">About You</h5>
+                <input type="text" name="fullname" placeholder="Your Name" id="fullname">
+                <input type="text" name="number" placeholder="Phone" id="number">
+                <input type="text" name="email" placeholder="Email Id" id="email">
+              </div>
+
+              <div>
+                <div class="multi-form-btn">
+                  <button type="button" id="prevBtn">Previous</button>
+                  <button type="button" id="nextBtn">Next</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------- Book Taxies End ----------->
+
+  <!------------ About ------------->
+  <!-- <section id="AboutUs">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-5"></div>
+          <div class="col-md-5">
+            <div class="content">
+              <h3 class="title pb-3">About Us</h3>
+
+              <div class="text">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, ipsum! Porro at corporis nam corrupti. Minus nam numquam aspernatur debitis ut? Doloremque nihil et deserunt repellat, tempora qui ea esse repellendus accusamus saepe laboriosam ullam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vero nemo quidem ullam pariatur ducimus reprehenderit eos quas magni similique totam labore doloremque minima molestiae sed, sit officiis distinctio placeat consectetur assumenda saepe? Id quod eius voluptatibus esse. Dolorem ducimus inventore doloribus dolore optio tempore quibusdam necessitatibus aliquam voluptates nostrum!</p>
+              </div>
+
+              <div class="abt-btn pt-3">
+                <a href="" class="fillBtn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  <!------------ About End ------------->
+
+  <!------------ Services ------------->
+  <section id="service_Area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="sec-title">
+            Our Services
+          </h3>
+          <span class="sec-sub-title">Our best taxi services for you</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="srv-item">
+                <div class="img">
+                  <img src="assets/images/business-transfer.webp" alt="" class="img-fluid">
+                </div>
+                <div class="name">
+                  <h4>Business transfer</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="srv-item">
+                <div class="img">
+                  <img src="assets/images/airport-transfer.webp" alt="" class="img-fluid">
+                </div>
+                <div class="name">
+                  <h4>Airport transfer</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="srv-item">
+                <div class="img">
+                  <img src="assets/images/tour-transfer.webp" alt="" class="img-fluid">
+                </div>
+                <div class="name">
+                  <h4>Tour transfer</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="srv-item">
+                <div class="img">
+                  <img src="assets/images/rapid-city-transfer.webp" alt="" class="img-fluid">
+                </div>
+                <div class="name">
+                  <h4>Rapid city transfer</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="srv-item">
+                <div class="img">
+                  <img src="assets/images/regular transport.webp" alt="" class="img-fluid">
+                </div>
+                <div class="name">
+                  <h4>Regular Transport</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------ Services End ------------->
+
+<!------------- Common Journey ------------->
+<section id="commonJourney">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="sec-title">
+          Common Journeys<br>That We Cover
+        </h3>
+        <span class="sec-sub-title">Our best taxi services for you</span>
+      </div>
+    </div>
+    <div class="row pt-5">
+      <div class="col-md-12">
+        <div class="accordtion">
+          <div class="accord-item">
+            <div class="ques">
+              <div><h4>Local Venues </h4></div><div class="icon"><i class='bx bx-plus'></i></div>
+            </div>
+            <div class="ans">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum non itaque explicabo est dolorum quisquam ratione quod ad modi. Odio facilis voluptatum, omnis necessitatibus reiciendis id ipsa natus, maxime libero dolorum optio quo voluptatem, enim ab. Sapiente eveniet eligendi rerum?</p>
+            </div>
+          </div>
+
+          <div class="accord-item">
+            <div class="ques">
+              <div><h4>Jurassic Coast Fossil Hunting</h4></div><div class="icon"><i class='bx bx-plus'></i></div>
+            </div>
+            <div class="ans">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum non itaque explicabo est dolorum quisquam ratione quod ad modi. Odio facilis voluptatum, omnis necessitatibus reiciendis id ipsa natus, maxime libero dolorum optio quo voluptatem, enim ab. Sapiente eveniet eligendi rerum?</p>
+            </div>
+          </div>
+
+          <div class="accord-item">
+            <div class="ques">
+              <div><h4>Local Accommodation</h4></div><div class="icon"><i class='bx bx-plus'></i></div>
+            </div>
+            <div class="ans">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum non itaque explicabo est dolorum quisquam ratione quod ad modi. Odio facilis voluptatum, omnis necessitatibus reiciendis id ipsa natus, maxime libero dolorum optio quo voluptatem, enim ab. Sapiente eveniet eligendi rerum?</p>
+            </div>
+          </div>
+
+          <div class="accord-item">
+            <div class="ques">
+              <div><h4>Local Schools</h4></div><div class="icon"><i class='bx bx-plus'></i></div>
+            </div>
+            <div class="ans">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum non itaque explicabo est dolorum quisquam ratione quod ad modi. Odio facilis voluptatum, omnis necessitatibus reiciendis id ipsa natus, maxime libero dolorum optio quo voluptatem, enim ab. Sapiente eveniet eligendi rerum?</p>
+            </div>
+          </div>
+
+          <div class="accord-item">
+            <div class="ques">
+              <div><h4>Local Towns and Villages</h4></div><div class="icon"><i class='bx bx-plus'></i></div>
+            </div>
+            <div class="ans">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum non itaque explicabo est dolorum quisquam ratione quod ad modi. Odio facilis voluptatum, omnis necessitatibus reiciendis id ipsa natus, maxime libero dolorum optio quo voluptatem, enim ab. Sapiente eveniet eligendi rerum?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!------------- Common Journey End ------------->
+
+<!------------- Our Advantages ------------->
+<section id="ourAdv" class="mb-5">
+  <div class="overlay">
+    <div class="container our-adv">
+      <div class="row justify-content-between">
+        <div class="col-md-5">
+          <div>
+            <!-- <span class="sec-sub-title pt-1">why choose us</span> -->
+            <h2>Why Choose Us?</h2>
+            <h3 class="sec-title">
+              Our best advantages for you
+            </h3>
+          
+            <div class="text">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit repellat dolorum consectetur quaerat consequuntur quae rerum, voluptatibus facere.</p>
+            </div>
+            <div class="per-info">
+              <h4>We have more than 5+ years of taxi service experience.</h4>
+            </div>
+            <ul class="point-lists">
+              <li><span><i class='bx bx-radio-circle-marked' ></i></span><span class="text-white adv-pts">24/7 Service</span></li>
+              <li><span><i class='bx bx-radio-circle-marked' ></i></span><span class="text-white adv-pts">Affordable Price</span></li>
+            </ul>
+          </div>
+          
+        </div>
+        <div class="col-md-5">
+            <div class="adv-item justify-content-end">
+              <div class="adv-circle">
+                <div class="adv-inner-circle">
+                  <h6>Hassle Free Service</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+              </div>
+               <hr> 
+            </div>
+            <div class="adv-item justify-content-center">
+              <div class="adv-circle">
+                <div class="adv-inner-circle">
+                  <h6>Safety Guaranteed</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+              </div>
+               <hr>  
+            </div>
+            <div class="adv-item">
+              <div class="adv-circle">
+                <div class="adv-inner-circle">
+                  <h6>Swift & Reliable</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              <hr>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!------------- Our Advantages End ------------->
+  
+  <!---------- script --------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
